@@ -1,0 +1,243 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>project for 5</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+  
+    body {
+      margin: 0;
+      box-sizing: border-box;
+      background-color: #ffffff;
+      color: #000000;
+    }
+
+    .container {
+      line-height: 150%;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px;
+      background-color: #484848;
+    }
+
+    .header h1 {
+      color: #222222;
+      font-size: 30px;
+      font-family: 'Pacifico', cursive;
+    }
+
+    .header .social a {
+      padding: 0 5px;
+      color: #898989;
+    }
+
+    .left {
+      float: left;
+      width: 180px;
+      margin: 0;
+      padding: 1em;
+    }
+
+    .content {
+      margin-left: 190px;
+      border-left: 1px solid #d4d4d4;
+      padding: 1em;
+      overflow: hidden;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+    }
+
+    li a {
+      display: block;
+      color: #000;
+      padding: 8px 16px;
+      text-decoration: none;
+    }
+
+    li a.active {
+      background-color: #84e4e2;
+      color: white;
+    }
+
+    li a:hover:not {
+      background-color: #29292a;
+      color: white;
+    }
+
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+      margin: 30px 0;
+      
+    }
+
+    td,th {
+      border: 1px solid #dddddd;
+      padding: 8px;
+      
+    }
+
+    tr:nth-child(1) {
+      background-color: #84e4e2;
+      color: white;
+    }
+
+    tr td i.fas {
+      display: block;
+      font-size: 35px;
+      text-align: center;
+    }
+
+    .footer {
+      padding: 55px 20px;
+      background-color: #000000;
+      color: white;
+      text-align: center;
+    }
+    .time {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    @import url('https://fonts.googleapis.com/css?family=Baloo+Thambi');
+
+  .text-container {
+    background-color: #000;
+    color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Baloo Thambi', cursive;
+    font-size: 7rem;
+    height: 100px;
+  }
+
+  .text-container > span {
+    text-transform: uppercase;
+    animation: glow 2s ease-in-out infinite;
+  }
+
+@keyframes glow {
+  0%, 100% {
+    color: #FFF;
+    text-shadow: 0 0 10px #0652DD, 0 0 50px #0652DD, 0 0 100px #0652DD;
+  }
+  
+  10%, 90% {
+    color: #111;
+    text-shadow: none;
+  }
+}
+
+  .text-container > span:nth-child(2) {
+    animation-delay: 0.25s;
+  }
+
+  .text-container > span:nth-child(3) {
+    animation-delay: 0.5s;
+  }
+
+  .text-container > span:nth-child(4) {
+    animation-delay: 0.75s;
+  }
+
+  .text-container > span:nth-child(5) {
+    animation-delay: 1s;
+  }
+
+  .text-container > span:nth-child(6) {
+    animation-delay: 1.25s;
+  }
+
+  .text-container > span:nth-child(7) {
+    animation-delay: 1.5s;
+  }
+  .image-container {
+  background-image: url('ппппп.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 1400px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+h1 {
+  color: white;
+  font-size: 3em;
+  text-align: center;
+}
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="text-container">
+        <span>m</span>
+        <span>r</span>
+        <span>s</span>
+        <span>i</span>
+        <span>g</span>
+        <span>m</span>
+        <span>a</span>
+      </div>
+      <div class="social">
+        <a href=""><i class="facebook"></i></a>
+        <a href=""><i class="instagram"></i></a>
+        <a href=""><i class="twitter"></i></a>
+      </div>
+    </header>
+    <aside class="left">
+      <img src="пп.gif" width="180px" />
+      <ul>
+        <li><a class="raise" href="file:///C:/WEB/index.html">Главная</a></li>
+        <li><a class="raise" href="file:///C:/WEB/index1.html#food%20of%20Europe">Еда из Европы</a></li>
+        <li><a class="raise" href="file:///C:/WEB/index2.html">Еда из Азии</a></li>       
+               
+      </ul>
+      <br><br>
+      <p><br></p>
+      <form>
+        <label>Email: <input type="text" name="email"></label><br>
+        <label> Password: <input type="text" name="mobile"> </label><br>
+        <textarea name="comments" rows="4">Enter your message</textarea><br>
+        <input type="submit" value="Submit" /><br>
+      </form>
+    </aside>
+
+    <main class="content">
+      <h2></h2>
+      
+      <div class="image-container">
+        <h1>Сайт про еду</h1>
+      </div>
+      
+
+    </main>
+    <footer class="footer">&copy; i did it</footer>
+  </div>
+</body>
+
+</html>
